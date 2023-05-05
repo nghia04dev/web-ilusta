@@ -1,0 +1,307 @@
+/* ===========================REPONSIVE========================== */
+@media screen and (max-width: 320px){
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 10px;
+    }
+    .logo{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .logo a img{
+        width: 50%;
+        padding: 10px;
+    }
+    .logo a{
+        padding: 0;
+        margin: 0;
+    }
+    nav{
+        display: none;
+    }
+    .seach{
+        flex-basis: 100%;
+    }
+    main{
+        flex-direction: column;
+    }
+    article{
+        width: 100%;
+        order: -1;
+    }
+    aside{
+        width: 100%;
+    }
+    .list_products .product{
+        flex-basis: 100%;
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .welcome{
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .welcome p{
+        padding: 10px;
+    }
+    .footer_container{
+        padding: 10px;
+    }
+    .footer_container .row_1{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_container .row_1 div{
+        flex-basis: 48%;
+    }
+    .footer_container .row_1 .legal_support div{
+        flex-basis: 100%;
+    }
+    .footer_container .row_3 ul{
+        gap: 10px;
+    }
+    .footer_container .row_3 ul li a{
+        padding: 10px 0px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        font-size: 12px;
+    }
+    .logo{
+        flex-basis: 30%;
+    }
+    .logo a{
+        display: block;
+        padding: 10px 10px 0px 10px;
+    }
+    .logo a img{
+        width: 100%;
+        padding: 0;
+    }
+    nav{
+        display: none;
+    }
+    .seach{
+        flex-basis: 60%;
+    }
+    /* ======================= */
+    main{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+    .product_portfolio ul li {
+        padding: 0px 5px;
+    }
+    .product_portfolio ul li a i{
+        padding-right: 0;
+    }
+    article{
+        width: 100%;
+        order: -1;
+    }
+    .list_products .product{
+        flex-basis: 48%;
+    }
+    @keyframes flicker{
+    0%{color: red;}
+    20%{color: rgb(0, 255, 242);}
+    40%{color: black;}
+    60%{color: yellowgreen;}
+    80%{color: gray;}
+    100%{color: blue;}
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .welcome{
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .welcome p{
+        padding: 10px;
+    }
+    .footer_container{
+        padding: 10px;
+    }
+    .footer_container .row_1{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_container .row_1 div{
+        flex-basis: 48%;
+    }
+    .footer_container .row_1 .legal_support div{
+        flex-basis: 100%;
+    }
+    .footer_container .row_3 ul{
+        gap: 10px;
+    }
+    .footer_container .row_3 ul li a{
+        padding: 10px 0px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 700px){
+    body{
+        font-size: 12px;
+    }
+    .logo{
+        flex-basis: 30%;
+    }
+    .logo a{
+        display: block;
+        padding: 10px 10px 0px 10px;
+    }
+    .logo a img{
+        width: 100%;
+        padding: 0;
+    }
+    nav{
+        display: none;
+    }
+    .seach{
+        flex-basis: 65%;
+    }
+    /* ======================= */
+    main{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+    .product_portfolio ul li {
+        padding: 0px 5px;
+    }
+    .product_portfolio ul li a i{
+        padding-right: 0;
+    }
+    article{
+        width: 100%;
+        order: -1;
+    }
+    .list_products .product{
+        flex-basis: 30%;
+    }
+    @keyframes flicker{
+    0%{color: red;}
+    20%{color: rgb(0, 255, 242);}
+    40%{color: black;}
+    60%{color: yellowgreen;}
+    80%{color: gray;}
+    100%{color: blue;}
+    }
+    footer{
+        margin-top: 0px;
+    }
+    .welcome{
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .welcome p{
+        padding: 10px;
+    }
+    .footer_container{
+        padding: 10px;
+    }
+    .footer_container .row_1{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_container .row_1 div{
+        flex-basis: 48%;
+    }
+    .footer_container .row_1 .legal_support div{
+        flex-basis: 100%;
+    }
+    .footer_container .row_3 ul{
+        gap: 10px;
+    }
+    .footer_container .row_3 ul li a{
+        padding: 10px 0px;
+    }
+}
+@media  screen and (min-width: 700px) and (max-width: 768px) {
+    body{
+        font-size: 13px;
+    }
+    .logo a img{
+        width: 100%;
+        padding: 0;
+    }
+    .logo{
+        flex-basis: 20%;
+    }
+    nav{
+        flex-basis: 80%;
+    }
+    .seach{
+        flex-basis: 80%;
+        margin: 0px 0px 20px 120px;
+    }
+    main{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+    .product_portfolio ul li {
+        padding: 0px 5px;
+    }
+    .product_portfolio ul li a i{
+        padding-right: 0;
+    }
+    article{
+        width: 100%;
+        order: -1;
+    }
+    .list_products .product{
+        flex-basis: 30%;
+    }
+    @keyframes flicker{
+    0%{color: red;}
+    20%{color: rgb(0, 255, 242);}
+    40%{color: black;}
+    60%{color: yellowgreen;}
+    80%{color: gray;}
+    100%{color: blue;}
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1079px){
+    .logo{
+        flex-basis: 20%;
+        padding: 0px;
+    }
+    .logo a{
+        padding: 0;
+        padding-top: 20px;
+    }
+    .logo a img{
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li a.menu{
+        padding: 0px 15px;
+    }
+    nav{
+        flex-basis: 70%;
+    }
+    .seach{
+        flex-basis: 50%;
+        margin: 0px 0px 20px 280px;
+    }
+    .list_products .product{
+        flex-basis: 30%;
+    }
+}
+/* ===========================REPONSIVE========================== */

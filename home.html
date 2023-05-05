@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="image/ilusta.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reponsive_home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Shop ILuSta</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href=""><img src="image/ilusta.jpg" alt=""></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="menu" href="">Home</a></li>
+                    <li><a class="menu" href="">About us</a></li>
+                    <li>
+                        <a class="menu" href="">Products <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="item">
+                            <a href=""><i class="fa-regular fa-star"></i> News Product</a>
+                            <a href=""><i class="fa-solid fa-cart-flatbed"></i> Inventory</a>
+                            <a href=""><i class="fa-regular fa-circle-down"></i> Discount</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="menu" href="">Blog <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="item">
+                            <a href=""> News</a>
+                            <a href=""> Health</a>
+                            <a href=""> Food</a>
+                            <a href=""> Travel</a>
+                            <a href=""> Technology</a>
+                            <a href=""> Beauty</a>
+                            <a href=""> Fashion</a>
+                            <a href=""> Sports</a>
+                        </div>
+                    </li>
+                    <li><a class="menu" href="">Testimonials</a></li>
+                    <li class="login">
+                        <a href="" class="menu">User</a>
+                        <div class="item">
+                            <a href="signup.html"> Sign Up</a>
+                            <a href="login.html"> Login</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="seach">
+                <input type="text" placeholder="Seach">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        <h1>Welcome to ILUSTA <i class="fa-solid fa-cart-shopping"></i></h1>
+        <main>
+            <aside>
+                <div class="product_portfolio">
+                    <ul>
+                        <li class="name_bar"><p><i class="fa-solid fa-bars"></i> Product portfolio</p></li>
+                        <li><i class="fa-solid fa-vest-patches"></i><a href="">Women's Fashion <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-vest"></i><a href="">Men's Fashion <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-glasses"></i><a href="">Accessory <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-microchip"></i><a href="">Electronic <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-paw"></i><a href="">Pets <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-brands fa-shopify"></i><a href="">Houseware <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-utensils"></i><a href="">Foods and drinks <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-gears"></i><a href="">Technology <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-baby"></i><a href="">Baby <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-car-side"></i><a href="">Cars and motobycles <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-dumbbell"></i><a href="">Recreational sports <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-heart"></i><a href="">Health and beauty <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-shoe-prints"></i><a href="">Shoes and bags <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-droplet"></i><a href="">Materials <i class="fa-solid fa-caret-right"></i></a></li>
+                        <li><i class="fa-solid fa-tractor"></i> <a href="">Agriculture <i class="fa-solid fa-caret-right"></i></a></li>
+                    </ul>
+                </div>
+            </aside>
+            <article>
+                <div class="slide_show">
+                    <div class="slide_1">
+                        <a href=""><img id="trailer_slide" src="image/sale1.jpg" alt=""></a>
+                        <div>
+                            <img onclick="next_slide(1)" src="image/sale2.jpg" alt="">
+                            <img onclick="next_slide(2)" src="image/bigsale.jpg" alt="">
+                            <img onclick="next_slide(3)" src="image/friday.jpg" alt="">
+                            <img onclick="next_slide(4)" src="image/sale5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide_2">
+                        <a href=""><img src="image/sale4.jpg" alt=""></a>
+                    </div>
+                    <div class="slide_3">
+                        <a href=""><img src="image/sale3.jpg" alt=""></a>
+                    </div>
+                </div>
+                <h3 class="name_list">All products <i class="fa-solid fa-store"></i></h3>
+                <div class="list_products">
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/t-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">T-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/polo.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Polo-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/dress-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Dress-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/button-up_shirts.webp" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Button-up-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/hoodie.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Hoodies</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/Henley-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Henley-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/Rugby-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Rugby-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/hoodie.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Camp-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <!-- --------------------------------------------- -->
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/t-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">T-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/polo.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Polo-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/dress-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Dress-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/button-up_shirts.webp" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Button-up-shirts</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/hoodie.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Hoodies</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/Henley-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Henley-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/Rugby-shirt.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Rugby-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="info_top">
+                            <a href=""><img width="100%" src="image/hoodie.jpg" alt=""></a>
+                            <a href="" class="viewnow">View Now</a>
+                        </div>
+                        <div class="info_row">
+                            <a class="infor" href="">Camp-shirt</a>
+                            <a href="" class="types">More than 15 models</a>
+                            <a href="" class="status">Sold: 21,3k products</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <section></section>
+        </main>
+        <div class="welcome">
+           <p> Welcome to Ilusta's shop! Here, we pride ourselves on offering our customers unique, high-quality, and exciting products. With a talented and passionate design team, we are committed to providing our customers with the best shopping experience possible. Explore our collections and find your favorite products today!</p>
+        </div>
+        <footer>
+            <div class="footer_container">
+                <div class="row_1">
+                    <div class="content">
+                        <ul>
+                            <li><label for="">CONTENT</label></li>
+                            <li><a href="">Calendar of festivities</a></li>
+                            <li><a href="">New assets</a></li>
+                            <li><a href="">The most popular content</a></li>
+                            <li><a href="">Search trends</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="infomation">
+                        <ul>
+                            <li><label for="">INFORMATION</label></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Business</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Sell your content</a></li>
+                        </ul>
+                    </div>
+                    <div class="legal_support">
+                        <div class="legal">
+                            <ul>
+                                <li><label for="">LEGAL</label></li>
+                                <li><a href="">Terms and conditions</a></li>
+                                <li><a href="">License agreement</a></li>
+                                <li><a href="">Privacy policy</a></li>
+                                <li><a href="">Copyright information</a></li>
+                                <li><a href="">Cookies policy</a></li>
+                                <li><a href="">Cookies Settings</a></li>
+                            </ul>
+                        </div>
+                        <div class="support">
+                            <ul>
+                                <li><label for="">SUPPORT</label></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Contast</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social_media">
+                        <label for="">SOCIAL MEDIA</label>
+                        <ul>
+                            <li><a class="fb" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a class="twi" href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="pinter" href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                            <li><a class="ins" href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="ytb" href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                        <p>Get exclusive assets sent straight to your inbox</p>
+                    </div>
+                </div>
+                <div class="row_2">
+                    <div class="copyrights">
+                        <a href=""><img width="100%" src="image/ilusta.jpg" alt=""></a>
+                        <p class="copyright">Copyright ©  2010-2023 NghiaNopro All rights reserved.</p>
+                    </div>
+                    <div class="language">
+                        <select name="" id="">
+                            <option value="">English</option>
+                            <option value="">VietNamese</option>
+                            <option value="">Spanish</option>
+                            <option value="">French</option>
+                            <option value="">German</option>
+                            <option value="">Japanese</option>
+                            <option value="">Chinese</option>
+                            <option value="">Korean</option>
+                            <option value="">Italian</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row_3">
+                    <div>ILuSta Company projects</div>
+                    <ul>
+                        <li><a href="">ILuSta</a></li>
+                        <li><a href="">Client</a></li>
+                        <li><a href="">Shoppe</a></li>
+                        <li><a href="">Lazada</a></li>
+                        <li><a href="">Tiki</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- =============================SCRIPT================================ -->
+    <!-- <script src="js/home.js"></script> -->
+    <!-- =============================SCRIPT================================ -->
+</body>
+</html>

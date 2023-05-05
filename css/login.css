@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: calibri; */
+}
+body{
+    font-size: 15px;
+    background-color: #1D262D;
+}
+label{
+    font-size: 18px;
+    color: #1D262D;
+}
+label.display{
+    font-size: 12px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #1D262D;
+}
+.container{
+    width: 300px;
+    height: 340px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px 1px rgb(193, 193, 193);
+    background-color: white;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 4px 2px rgb(144, 232, 12);
+    border: none;
+}
+input.check{
+    width: 10px;
+    height: 10px;
+}
+form{
+    height: auto;
+    padding: 20px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    padding: 5px 5px 0px 0px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #1D262D;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 4px 1px gray;
+}
+a.forgot{
+    float: right;
+    color: #1D262D;
+    font-size: 10px;
+}
+a.forgot:hover{
+    color: red;
+}
+.other{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other a{
+    text-decoration: none;
+    flex-basis: 10%;
+    padding: 0px 15px;
+}
+.other span{
+    font-size: 13px;
+    font-weight: bold;
+}
